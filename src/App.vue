@@ -5,5 +5,9 @@ export default {
 </script>
 
 <template>
-  <h1>Ciao</h1>
+  <header>
+
+  </header>
+  <main></main>
+  <footer></footer>
 </template>

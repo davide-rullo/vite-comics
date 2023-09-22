@@ -97,7 +97,7 @@ ul h3 {
     position: absolute;
     right: 0;
     top: 0;
-    width: 200px;
+    width: 340px;
 
 }
 </style>

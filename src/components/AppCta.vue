@@ -21,19 +21,19 @@ export default {
                     <h3>FOLLOW US</h3>
                 </div>
                 <div class="facebook">
-                    <img src="../assets/img/footer-facebook.png" alt="">
+                    <a href="#"><img src="../assets/img/footer-facebook.png" alt=""></a>
                 </div>
                 <div class="twitter">
-                    <img src="../assets/img/footer-twitter.png" alt="">
+                    <a href="#"><img src="../assets/img/footer-twitter.png" alt=""></a>
                 </div>
                 <div class="youtube">
-                    <img src="../assets/img/footer-youtube.png" alt="">
+                    <a href="#"><img src="../assets/img/footer-youtube.png" alt=""></a>
                 </div>
                 <div class="pinterest">
-                    <img src="../assets/img/footer-pinterest.png" alt="">
+                    <a href="#"><img src="../assets/img/footer-pinterest.png" alt=""></a>
                 </div>
                 <div class="periscope">
-                    <img src="../assets/img/footer-periscope.png" alt="">
+                    <a href="#"> <img src="../assets/img/footer-periscope.png" alt=""></a>
                 </div>
             </div>
         </div>

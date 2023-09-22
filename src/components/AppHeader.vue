@@ -62,7 +62,9 @@ export default {
 <style lang="scss" scoped>
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500;700&display=swap');
 
-header {}
+header {
+    color: #464646;
+}
 
 body {
     font-family: 'Fira Sans Condensed', sans-serif;

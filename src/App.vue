@@ -1,6 +1,6 @@
 <script>
 export default {
-  // questo é il vs options object
+
 }
 </script>
 

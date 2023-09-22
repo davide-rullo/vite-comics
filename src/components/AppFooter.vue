@@ -74,6 +74,8 @@ export default {
 
 .footer-menu {
     background-image: url('../assets/img/footer-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 1rem;
 }
 

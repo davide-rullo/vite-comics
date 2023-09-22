@@ -12,7 +12,7 @@ export default {
     <div class="footer-menu">
         <div class="container wrapper">
             <div class="row">
-                <div class="col-2">
+                <div class="col-12 col-md-2">
                     <ul class="list-unstyled">
                         <h3>DC Comics</h3>
                         <li>Characters</li>
@@ -30,7 +30,7 @@ export default {
 
                     </ul>
                 </div>
-                <div class="col-2">
+                <div class="col-12 col-md-2">
                     <ul class="list-unstyled">
                         <h3>DC</h3>
                         <li>Terms of use</li>
@@ -48,7 +48,7 @@ export default {
 
                     </ul>
                 </div>
-                <div class="col-2">
+                <div class="col-12 col-md-2">
                     <ul class="list-unstyled">
                         <h3>Sites</h3>
                         <li>DC</li>

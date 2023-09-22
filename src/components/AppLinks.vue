@@ -10,7 +10,7 @@ export default {
 
 <template>
     <div class="links">
-        <div class="link-menu d-flex justify-content-center align-items-center gap-5">
+        <div class="link-menu d-flex justify-content-center align-items-center gap-5 flex-wrap">
             <div class="link digital d-flex justify-content-center align-items-center">
                 <img src="../assets/img/buy-comics-digital-comics.png" alt="">
                 <p>Digital comics</p>

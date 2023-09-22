@@ -10,13 +10,13 @@ export default {
 
 <template>
     <div class="cta d-flex">
-        <div class="container d-flex justify-content-between align-items-center">
+        <div class="container d-flex justify-content-between align-items-center flex-wrap">
             <div class="button">
                 <button type="button" class="btn cta-btn">
                     <h3>Sign-up now!</h3>
                 </button>
             </div>
-            <div class="social d-flex gap-3">
+            <div class="social d-flex gap-3 flex-wrap">
                 <div class="follow">
                     <h3>FOLLOW US</h3>
                 </div>

@@ -1,5 +1,7 @@
 <script>
 
+
+
 export default {
     name: 'AppFooter',
     components: {
@@ -62,6 +64,7 @@ export default {
                     <img src="../assets/img/dc-logo-bg.png" alt="">
                 </div>
             </div>
+
 
         </div>
     </div>

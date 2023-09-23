@@ -46,17 +46,18 @@ export default {
 
 <template>
     <header>
-        <nav class="navbar d-flex justify-content-between">
+        <nav class="navbar d-flex justify-content-between pb-0">
 
             <div class="logo">
                 <img src="../assets/img/dc-logo.png" alt="">
             </div>
             <div class="nav-menu">
                 <ul class="navbar-nav d-flex flex-row gap-3">
-
-                    <li class="nav-item" v-for="item in items">
-                        <h6>{{ item.name }}</h6>
-                    </li>
+                    <div class="nav-wrap d-flex justify-content-center align-items-center" v-for="item in items">
+                        <li class="nav-item">
+                            <h6>{{ item.name }}</h6>
+                        </li>
+                    </div>
 
 
 
@@ -71,10 +72,11 @@ export default {
 
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variables.scss' as *;
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500;700&display=swap');
 
 header {
-    color: #464646;
+    color: $dc-header-font;
 }
 
 body {
@@ -98,4 +100,13 @@ nav {
 .nav-item {
     text-transform: uppercase;
 }
+
+.nav-wrap {
+    height: 80px;
+}
+
+//bordo blu da dare all'item active
+// .nav-wrap {
+//     border-bottom: 3px solid #0282F9;
+// }
 </style>

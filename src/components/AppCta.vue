@@ -44,19 +44,20 @@ export default {
 
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variables.scss' as *;
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500;700&display=swap');
 
 .cta {
-    background-color: #303030;
+    background-color: $dc-grey;
     padding: 2rem;
 }
 
 .cta-btn {
-    border: 1px solid #0282F9;
-    color: white;
+    border: 1px solid $dc-primary;
+    color: $dc-white;
 }
 
 .follow {
-    color: #0282F9;
+    color: $dc-primary;
 }
 </style>

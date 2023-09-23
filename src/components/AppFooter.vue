@@ -73,6 +73,7 @@ export default {
 
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variables.scss' as *;
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500;700&display=swap');
 
 .footer-menu {
@@ -93,7 +94,7 @@ export default {
 }
 
 ul h3 {
-    color: white;
+    color: $dc-white;
 }
 
 .logo-bg img {

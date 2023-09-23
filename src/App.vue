@@ -38,4 +38,6 @@ export default {
   <AppCTA></AppCTA>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+@use './assets/scss/partials/variables.scss' as *;
+</style>

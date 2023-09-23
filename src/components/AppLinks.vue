@@ -50,11 +50,12 @@ export default {
 
 
 <style lang="scss" scoped>
+@use '../assets/scss/partials/variables.scss' as *;
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500;700&display=swap');
 
 .links {
 
-    background-color: #0282F9;
+    background-color: $dc-primary;
     padding: 1rem 0;
 
 
@@ -62,7 +63,7 @@ export default {
         width: 70%;
         padding: 1rem;
         margin: auto;
-        color: white;
+        color: $dc-white;
         text-transform: uppercase;
         gap: 1rem;
         justify-content: center;

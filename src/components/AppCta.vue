@@ -4,7 +4,8 @@ export default {
     name: 'AppCta',
     components: {
 
-    }
+    },
+
 }
 </script>
 

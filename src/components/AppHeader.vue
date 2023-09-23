@@ -2,6 +2,42 @@
 
 export default {
     name: 'AppHeader',
+    data() {
+        return {
+            items: [
+                {
+                    name: 'Characters'
+                },
+                {
+                    name: 'Comics'
+                },
+                {
+                    name: 'Movies'
+                },
+                {
+                    name: 'TV'
+                },
+                {
+                    name: 'Games'
+                },
+                {
+                    name: 'Collectibles'
+                },
+                {
+                    name: 'Videos'
+                },
+                {
+                    name: 'Fans'
+                },
+                {
+                    name: 'News'
+                },
+                {
+                    name: 'Shop'
+                },
+            ]
+        }
+    },
     components: {
 
     }
@@ -17,37 +53,10 @@ export default {
             </div>
             <div class="nav-menu">
                 <ul class="navbar-nav d-flex flex-row gap-3">
-                    <li class="nav-item">
-                        <h6>CHARACTERS</h6>
-                    </li>
-                    <li class="nav-item">
-                        <h6>COMICS</h6>
-                    </li>
-                    <li class="nav-item">
-                        <h6>MOVIES</h6>
-                    </li>
-                    <li class="nav-item">
-                        <h6>TV</h6>
-                    </li>
-                    <li class="nav-item">
-                        <h6>GAMES</h6>
-                    </li>
-                    <li class="nav-item">
-                        <h6>COLLECTIBLES</h6>
-                    </li>
-                    <li class="nav-item">
-                        <h6>VIDEOS</h6>
-                    </li>
-                    <li class="nav-item">
-                        <h6>FANS</h6>
-                    </li>
-                    <li class="nav-item">
-                        <h6>NEWS</h6>
-                    </li>
-                    <li class="nav-item">
-                        <h6>SHOP</h6>
-                    </li>
 
+                    <li class="nav-item" v-for="item in items">
+                        <h6>{{ item.name }}</h6>
+                    </li>
 
 
 
@@ -84,5 +93,9 @@ body {
 nav {
     width: 70%;
     margin: auto;
+}
+
+.nav-item {
+    text-transform: uppercase;
 }
 </style>

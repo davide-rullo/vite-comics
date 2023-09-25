@@ -1,17 +1,28 @@
 <script>
 
+import comics from "../../src/comics.js";
+
+
+
 export default {
     name: 'AppMain',
-    components: {
+    data() {
+        return {
+            comics
+        };
+    },
 
-    }
 }
 </script>
 
 <template>
     <main>
         <div class="content d-flex align-items-center">
-            <h2>Content goes here</h2>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-6">
+                    <ComicItem :image="comic.thumb" :title="comic.series" v-for="comic in comics" />
+                </div>
+            </div>
         </div>
     </main>
 </template>
@@ -28,8 +39,8 @@ main {
 .content {
     width: 70%;
     margin: auto;
-
+    height: 200px;
     color: white;
-    height: 100px;
+
 }
 </style>

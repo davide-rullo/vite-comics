@@ -32,6 +32,9 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
+  <div class="jumbo">
+
+  </div>
   <AppMain></AppMain>
   <AppLinks></AppLinks>
   <AppFooter></AppFooter>
@@ -40,4 +43,11 @@ export default {
 
 <style lang="scss">
 @use './assets/scss/partials/variables.scss' as *;
+
+.jumbo {
+  background-image: url('../src/assets/img/jumbotron.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 23rem;
+}
 </style>

@@ -1,18 +1,39 @@
 <script>
 export default {
     name: 'ComicItem',
-    props: ['thumb', 'price', 'series', 'type']
+    props: {
+        thumb: String,
+        price: String,
+        series: String,
+        type: String,
+    },
+    data() {
+        return {
+
+        }
+    }
 }
 </script>
 
 <template>
     <div class="col">
-        <div class="card h-100">
-            <h4 class="">{{ series }}</h4>
-            <h1>prova</h1>
+        <div class="comics-card">
+            <img class="" :src="thumb" alt="">
         </div>
+        <p class="img-title">{{ series }} </p>
+
+
     </div>
 </template>
 
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.comics-card img {
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.img-title {
+    text-transform: uppercase;
+}
+</style>

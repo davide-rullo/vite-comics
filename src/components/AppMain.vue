@@ -1,6 +1,9 @@
 <script>
 
-import comics from "../../src/comics.js";
+import comics from "../comics";
+import ComicItem from "./ComicItem.vue";
+
+
 
 
 
@@ -8,10 +11,10 @@ export default {
     name: 'AppMain',
     data() {
         return {
-            comics
+            comics: comics
         };
     },
-
+    components: { ComicItem }
 }
 </script>
 
@@ -20,7 +23,10 @@ export default {
         <div class="content d-flex align-items-center">
             <div class="container">
                 <div class="row row-cols-1 row-cols-sm-3 row-cols-md-4 row-cols-lg-6">
-                    <ComicItem :image="comic.thumb" :title="comic.series" v-for="comic in comics" />
+                    <ComicItem :thumb="comic.thumb" :series="comic.series" :type="comic.type" :price="comic.price"
+                        v-for="comic in comics" />
+
+
                 </div>
             </div>
         </div>
@@ -36,10 +42,14 @@ main {
     background-color: #1C1C1C;
 }
 
+.container {
+    padding: 2.5rem 1rem;
+}
+
 .content {
     width: 70%;
     margin: auto;
-    height: 200px;
+
     color: white;
 
 }

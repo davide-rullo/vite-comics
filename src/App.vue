@@ -4,6 +4,7 @@ import AppMain from './components/AppMain.vue';
 import AppLinks from './components/AppLinks.vue';
 import AppFooter from './components/AppFooter.vue';
 import AppCTA from './components/AppCta.vue';
+import AppJumbo from './components/AppJumbo.vue';
 
 
 
@@ -23,7 +24,7 @@ export default {
     AppLinks,
     AppFooter,
     AppCTA,
-
+    AppJumbo
   }
 
 }
@@ -32,9 +33,7 @@ export default {
 
 <template>
   <AppHeader></AppHeader>
-  <div class="jumbo">
-
-  </div>
+  <AppJumbo></AppJumbo>
   <AppMain></AppMain>
   <AppLinks></AppLinks>
   <AppFooter></AppFooter>
@@ -43,11 +42,4 @@ export default {
 
 <style lang="scss">
 @use './assets/scss/partials/variables.scss' as *;
-
-.jumbo {
-  background-image: url('../src/assets/img/jumbotron.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 23rem;
-}
 </style>

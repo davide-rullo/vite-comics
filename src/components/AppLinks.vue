@@ -16,6 +16,7 @@ export default {
                     <div class="link-menu d-flex">
                         <img src="../assets/img/buy-comics-digital-comics.png" alt="">
                         <p>Digital comics</p>
+
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-2">

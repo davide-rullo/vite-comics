@@ -18,7 +18,7 @@ export default {
 <template>
     <div class="col">
         <div class="comics-card">
-            <img class="" :src="thumb" alt="">
+            <a href="#"><img class="" :src="thumb" alt=""></a>
         </div>
         <p class="img-title">{{ series }} </p>
 
